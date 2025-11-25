@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 declare -a tablica=(100 12 9 70 16 0 81)
-
+echo "dzień dobry :)"
 tablica[7]=2137
 tablica[8]=420
 tablica[9]=67
@@ -20,5 +20,5 @@ for ((i=0; i<z-1; i++)); do
     done
 done
 
-echo "posortowana tablica: ${tablica[@]}"
-echo "minimalna liczba: ${tablica[0]}"
+echo "tablica przed sortowaniem: ${tablica[@]}"
+echo "a minimalna liczba to uwag uwaga (werble): ${tablica[0]}"
